@@ -1,0 +1,192 @@
+.add-product {
+  text-transform: uppercase;
+  display: none;
+}
+
+.container-add-product {
+  max-width: 792px;
+  padding: 0 106px 0 106px;
+}
+
+.add-product-window__input {
+  min-width: 250px;
+  display: block;
+  min-height: 40px;
+  border-radius: 6px;
+  border: none;
+}
+
+.add-product-form{
+  max-width: 792px;
+}
+
+.add-product__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-bottom: 21px;
+  border-bottom: 1px solid #C6C2DE;
+  margin-bottom: 21px;
+}
+
+.add-product-window {
+  display: grid;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  max-width: 580px;
+  padding: 28px 28px;
+  border: none;
+  box-sizing: border-box;
+  margin: 0 0 32px 0;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 24px;
+}
+
+.add-product-window__name-text {
+  display: block;
+  max-height: 524px;
+}
+
+.add-product-window__label {
+  margin-bottom: 12px;
+  max-height: 524px;
+}
+
+.add-product-window__input-discount {
+  display: inline-block;
+  min-width: 200px;
+  min-height: 40px;
+  border: none;
+  border-radius: 6px;
+  vertical-align: top;
+  margin-bottom: 12px;
+}
+
+.add-product-window__input-discount-checkbox {
+  appearance: none;
+}
+
+.add-product-window__input-description {
+  min-height: 112px;
+  max-width: 524px;
+  background-color: #F4F2FF;
+  resize: none;
+}
+
+.add-product-button {
+  min-height: 39px;
+  min-width: 200px;
+  background-color: #6D5BD0;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.add-product-window__label-checkbox {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  padding: 12.5px 10px 12.5px 10px;
+  border-radius: 6px;
+  position: relative;
+  margin: 0 4px 0 0;
+  background-color: #F4F2FF;
+  cursor: pointer;
+}
+
+.add-product-window__input-discount-checkbox:checked::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/Vector.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 15px;
+  background-position: center;
+  left: 10px;
+  top: 12.5px;
+}
+
+.add-product-window__fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.add-product-window__input-discount:not(:enabled) {
+  background-color: #EEEEEE;
+}
+
+.container {
+  position: relative;
+}
+
+.add-product__title::before {
+  content: "";
+  position: absolute;
+  background: url("../img/VectorExit.svg");
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  top: -12px;
+  left: 742px;
+}
+
+.add-product-window__input-file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.add-product-window__label-file {
+  color: #FFFFFF;
+  position: relative;
+  padding: 11px 22px;
+  background-color: #6D5BD0;
+  border-radius: 6px;
+  display: block;
+  max-width: 250px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  grid-column: 2;
+  cursor: pointer;
+}
+
+.grid-item-text {
+  grid-row: 1/3;
+  grid-column: 2;
+}
+
+.add-product-window__label-price {
+   margin-bottom: 32px;
+}
+
+.button-wrapper {
+  display: flex;
+  padding: 0 28px;
+  justify-content: space-between;
+}
+
+.button-wrapper p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: none;
+}
+
+.button-wrapper p b {
+  font-size: 17px;
+  line-height: 22px;
+}

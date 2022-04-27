@@ -1,0 +1,5 @@
+@import "global.css";
+@import url(add-product.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+@import "normalize.css";
+@import "crm-list.css";

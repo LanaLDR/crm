@@ -1,0 +1,181 @@
+.title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 7px 20px;
+  align-items: baseline;
+  border-bottom: 1px solid #C6C2DE;
+  margin-bottom: 20px;
+}
+
+.crm-list__title {
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.title-wrapper p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: none;
+}
+
+.table-wrapper {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.title-wrapper p b {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.crm-list__table {
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #25213B;
+  text-align: left;
+  border-spacing: 0;
+}
+
+.crm-list__table th {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.th-id {
+  padding-left: 15px;
+}
+
+
+.crm-list__table tbody {
+  background-color: #FFFFFF;
+}
+
+.crm-list__table td {
+  border-bottom: 1px solid #D9D5EC;
+}
+
+.crm-list__table tbody td {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.crm-list__table__button {
+  border-style: none;
+  background-color: #FFFFFF;
+}
+
+.table-header {
+  background-color: #FFFFFF;
+  padding: 15px 20px;
+  display: flex;
+  gap: 20px;
+  justify-items: center;
+  border-bottom: 1px solid #D9D5EC;
+}
+
+.filter-button {
+  padding: 10px 10px;
+  border: 1px solid #C6C2DE;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  line-height: 19px;
+  color: #25213B;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.filter-button:before {
+  content: url("../img/crm-list/filter.svg");
+}
+
+.search-input {
+  background: #F4F2FF;
+  border-radius: 6px;
+  padding-left: 10px;
+  width: 392px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input input {
+  width: 100%;
+  border: none;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6E6893;
+}
+
+.search-input:before {
+  content: url("../img/crm-list/Search.svg");
+}
+
+.td-buttons {
+  display: flex;
+  gap: 23px;
+  padding-right: 15px;
+  justify-content: center;
+}
+
+.td-id {
+  padding-left: 15px;
+}
+
+.td-unit, .td-amount, .td-price, .td-summary, .th-unit, .th-amount, .th-price, .th-summary {
+  text-align: center;
+}
+
+.th-id, .td-id {
+  width: 108px;
+}
+
+.th-name, .td-name {
+  width: 295px;
+}
+
+.th-category, .td-category {
+  width: 175px;
+}
+
+#item_amount {
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+}
+
+.table-footer-wrapper {
+  display: flex;
+  padding: 15px 20px;
+  gap: 50px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button-back, .button-next {
+  border: none;
+  width: 6px;
+  height: 10px;
+  background-position: center;
+}
+
+.button-back {
+  background-image: url("../img/crm-list/back.svg");
+}
+
+.button-next {
+  background-image: url("../img/crm-list/next.svg");
+}
